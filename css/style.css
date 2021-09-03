@@ -11,12 +11,17 @@ body {
 .container {
     width: 70%;
     margin: 20px auto;
+    word-spacing: 5px;
 }
 
 .product {
     position: relative;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 7px);
     display: inline-block;
+}
+
+.image, .product_info {
+    word-spacing: normal;
 }
 
 .image {
@@ -65,14 +70,18 @@ body {
     position: absolute;
     bottom: 20px;
     left: 0;
-    height: 30px;
-    line-height: 30px;
+    height: 40px;
+    line-height: 40px;
 }
 
 .tag {
     display: inline-block;
     height: 100%;
-    padding: 0 5px;
+    padding: 0 10px;
+}
+
+.product_info {
+    line-height: 25px;
 }
 
 .red-bkg {
