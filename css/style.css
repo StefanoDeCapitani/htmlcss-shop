@@ -16,6 +16,7 @@ body {
 .product {
     position: relative;
     width: calc(100% / 3);
+    display: inline-block;
 }
 
 .image {
@@ -49,6 +50,15 @@ body {
     position: absolute;
     top: 15px;
     right: 0;
+    border: none;
+    background: white;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+}
+
+.like_button:focus {
+    color: red;
 }
 
 .tags {
@@ -83,6 +93,10 @@ body {
 
 .line-through-txt {
     text-decoration: line-through;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 
