@@ -28,6 +28,10 @@ body {
     position: relative;
 }
 
+.image:hover {
+    width: 98%;
+}
+
 .over_image {
     position: absolute;
     top: 0;
