@@ -76,10 +76,6 @@ body {
   position: relative;
 }
 
-.image:hover {
-  width: 98%;
-}
-
 .product_image {
   width: 100%;
 }
